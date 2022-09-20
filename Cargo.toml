@@ -1,8 +1,8 @@
 [package]
 name = "blockchain-in-rust"
 version = "0.1.0"
-authors = ["Jacob <jacob@geeklaunch.net>"]
-edition = "2018"
+authors = ["MAhmedSaeedi"]
+edition = "2022"
 
 [lib]
 name = "blockchainlib"
@@ -13,3 +13,5 @@ name = "blockchain"
 path = "src/main.rs"
 
 [dependencies]
+hex="0.3.2"
+crypto-hash="0.3.3"
